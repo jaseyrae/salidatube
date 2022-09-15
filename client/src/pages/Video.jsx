@@ -7,6 +7,7 @@ import AddTaskOutlinedIcon from "@mui/icons-material/AddTaskOutlined";
 import ThumbDownIcon from "@mui/icons-material/ThumbDown";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import ReplyOutlined from '@mui/icons-material/ReplyOutlined';
+import Recommendation from '../components/Recommendation';
 
 const Container = styled.div`
   display: flex;
@@ -142,7 +143,25 @@ const Video = () => {
           </Buttons>
         </Details>
         <Hr />
+        <Channel>
+          <ChannelInfo>
+            <Image src="" />
+            <ChannelDetail>
+              <ChannelName>Thaliza</ChannelName>
+              <ChannelCounter>200k subscribers</ChannelCounter>
+              <Description>
+                asdasdasdasdasdasdsadasdsadasdasdasd
+                sadasdsadsadasdasdasdasdsaddsadsadasdasdsadasdas
+                asdasdasdasdasdasdsadasdsadasdasdasd
+                sadasdsadsadasdasdasdasdsaddsadsadasdasdsadasdas
+                asdasdasdasdasdasdsadasdsadasdasdasd
+              </Description>
+            </ChannelDetail>
+          </ChannelInfo>
+          <Subscribe>SUBSCRIBE</Subscribe>
+        </Channel>
       </Content>
+      <Recommendation>Recoomendation</Recommendation>
     </Container>
   )
 }
