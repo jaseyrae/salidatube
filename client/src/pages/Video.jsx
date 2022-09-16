@@ -8,6 +8,8 @@ import ThumbDownIcon from "@mui/icons-material/ThumbDown";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import ReplyOutlined from '@mui/icons-material/ReplyOutlined';
 import Recommendation from '../components/Recommendation';
+import Comments from '../components/Comments';
+import Card from '../components/Card';
 
 const Container = styled.div`
   display: flex;
@@ -160,8 +162,10 @@ const Video = () => {
           </ChannelInfo>
           <Subscribe>SUBSCRIBE</Subscribe>
         </Channel>
+        <Hr />
+        <Comments />
       </Content>
-      <Recommendation>Recoomendation</Recommendation>
+      <Recommendation />
     </Container>
   )
 }
